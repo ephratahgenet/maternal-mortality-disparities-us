@@ -1,13 +1,10 @@
 # Racial Disparities in U.S. Maternal Mortality: A Geographic Analysis
 
 ## Why this project
-Black and American Indian/Alaska Native women in the U.S. die from pregnancy-related
-causes at roughly 3x the rate of white women — a gap that has persisted for decades
-and, according to CDC estimates, is about 66% preventable. As someone who works on
-community health equity through Columbia Students for Global Health Equity & Medicine,
-I wanted to dig into the *geographic* side of this disparity: does the racial gap in
-maternal mortality get worse in rural areas with less access to care, or is it
-consistent regardless of location?
+Black women in the U.S. die from pregnancy-related causes at a substantially higher
+rate than white women — a gap that has persisted for decades. This project examines
+that disparity across U.S. states from 2018-2024, and tests whether the size of the
+racial gap is associated with how rural or urban a state is.
 
 ## Research question
 How does pregnancy-related mortality by race compare across U.S. states, and does
@@ -15,50 +12,64 @@ the size of the racial gap correlate with rural vs. urban access to maternal car
 
 ## Data sources
 - **CDC WONDER** — Natality and Underlying Cause of Death databases
-  (https://wonder.cdc.gov/), queried for pregnancy-related mortality by
-  state and race/ethnicity.
+  (https://wonder.cdc.gov/), queried for pregnancy-related mortality (ICD-10 codes
+  O00-O99) by state and mother's race, 2018-2024
 - **NCHS Urban-Rural Classification Scheme for Counties** — used to classify
-  each state's counties (and aggregate to a state-level rural share) so mortality
-  data can be compared against rural/urban access.
+  each state's counties, aggregated to a state-level rural share (both by county
+  count and by population)
 
 ## Method
-1. Query CDC WONDER for pregnancy-related deaths and live births by state and
-   race/ethnicity (Black, White, at minimum) to calculate a pregnancy-related
-   mortality ratio (PRMR) per 100,000 live births, by state and race.
-2. Join state-level PRMR data with the NCHS rural-urban classification to get a
-   "percent rural population" figure per state.
-3. Calculate the racial gap (Black PRMR − White PRMR) for each state.
-4. Test whether percent-rural correlates with the size of that gap
-   (`scipy.stats.pearsonr` or `spearmanr`, since this is a small-N, non-normal dataset).
-5. Visualize with a U.S. choropleth map of the racial gap by state, plus a
-   scatterplot of rural share vs. gap size.
+1. Queried CDC WONDER for pregnancy-related deaths and live births by state and
+   race (Black, White), 2018-2024, and calculated a maternal mortality rate per
+   100,000 live births for each state/race combination.
+2. Joined this with NCHS county-level rural classification, aggregated to two
+   state-level rurality measures: percent of counties rural, and percent of
+   population living in rural counties.
+3. Calculated the racial disparity gap (Black rate − White rate) and ratio
+   (Black rate / White rate) for each of the 32 states with complete data for
+   both races.
+4. Tested correlation between rurality and disparity size using Pearson correlation.
+5. Visualized with a bar chart comparing Black vs. White rates by state, and a
+   scatterplot of rurality vs. disparity gap.
 
 ## Key finding
-*(Fill this in once you've run the analysis — 2-3 sentences with the main number.
-Put your best figure right below this section once it's generated.)*
+In all 32 states with complete data, the Black maternal mortality rate exceeded
+the White rate — with no exceptions — with gaps ranging from about 11 to 96 deaths
+per 100,000 births. However, rurality showed only a weak correlation with the size
+of that gap (r = 0.16 using percent-rural-counties, r = 0.27 using
+population-weighted rurality) — well below the threshold typically needed to call
+a relationship meaningful. This suggests the racial disparity is large and
+consistent regardless of how rural or urban a state is, rather than being
+specifically a rural-access problem.
+
+![Black vs White maternal mortality rate by state](images/black_white_mortality_by_state.png)
+
+![Rurality vs disparity gap scatterplot](images/rurality_vs_disparity_gap.png)
 
 ## Repository structure
-```
-data/raw/            Original CDC WONDER and NCHS exports, unmodified
-data/processed/       Cleaned, merged datasets used for analysis
-notebooks/            Jupyter notebooks with the analysis, step by step
-src/                  Reusable Python functions (cleaning, plotting)
-figures/              Final saved plots (PNG/SVG)
-```
+data/raw/ Original CDC WONDER and NCHS exports
+images/ Final saved plots (PNG)
+src/ Reusable Python functions (cleaning)
+01_data_inspection.ipynb Full analysis notebook, step by step
+
 
 ## How to reproduce
 ```bash
-git clone https://github.com/YOUR-USERNAME/maternal-mortality-disparities-us.git
+git clone https://github.com/ephratahgenet/maternal-mortality-disparities-us.git
 cd maternal-mortality-disparities-us
 pip install -r requirements.txt
-jupyter notebook notebooks/01_data_cleaning.ipynb
+jupyter notebook 01_data_inspection.ipynb
 ```
 
 ## Data limitations
-CDC WONDER suppresses small counts (fewer than 10 deaths) for privacy, which limits
-state-level granularity for smaller states. Race/ethnicity on birth and death
-certificates is self-reported by the mother or assigned by a certifier, which is a
-known source of misclassification in vital statistics data.
+- CDC WONDER suppresses small counts (fewer than 10 deaths) for privacy, which
+  reduced the sample to 32 states with complete race-level data.
+- Births data spans 2018-2024 to match the deaths data window.
+- State-level rurality may be too coarse a measure to capture the real
+  access-to-care mechanism (e.g., distance to nearest obstetric unit), which is
+  more of a county- or hospital-level phenomenon.
+- Race on birth and death certificates is self-reported or assigned by a
+  certifier, a known source of misclassification in vital statistics data.
 
 ## Author
 Ephratah Genet — Columbia University, B.A. Computational Biology
