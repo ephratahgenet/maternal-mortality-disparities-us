@@ -1,0 +1,153 @@
+"Notes"	"State"	"State Code"	"Single Race 6"	"Single Race 6 Code"	Deaths	Population	Crude Rate	Crude Rate Lower 95% Confidence Interval	Crude Rate Upper 95% Confidence Interval
+	"Alabama"	"01"	"Black or African American"	"2054-5"	108	9384181	1.2	0.9	1.4
+	"Alabama"	"01"	"White"	"2106-3"	107	24197348	0.4	0.4	0.5
+	"Alaska"	"02"	"White"	"2106-3"	12	3318369	0.4	0.2	0.6
+	"Arizona"	"04"	"Black or African American"	"2054-5"	29	2805255	1.0	0.7	1.5
+	"Arizona"	"04"	"White"	"2106-3"	137	42244915	0.3	0.3	0.4
+	"Arkansas"	"05"	"Black or African American"	"2054-5"	48	3331104	1.4	1.1	1.9
+	"Arkansas"	"05"	"White"	"2106-3"	74	16751182	0.4	0.3	0.6
+	"California"	"06"	"Black or African American"	"2054-5"	94	17799362	0.5	0.4	0.6
+	"California"	"06"	"White"	"2106-3"	350	195504971	0.2	0.2	0.2
+	"Colorado"	"08"	"Black or African American"	"2054-5"	13	1920409	0.7	0.4	1.2
+	"Colorado"	"08"	"White"	"2106-3"	80	35200704	0.2	0.2	0.3
+	"Connecticut"	"09"	"Black or African American"	"2054-5"	18	3196849	0.6	0.3	0.9
+	"Connecticut"	"09"	"White"	"2106-3"	43	19863179	0.2	0.2	0.3
+	"District of Columbia"	"11"	"Black or African American"	"2054-5"	26	2190000	1.2	0.8	1.7
+	"Florida"	"12"	"Black or African American"	"2054-5"	206	26189399	0.8	0.7	0.9
+	"Florida"	"12"	"White"	"2106-3"	231	118844137	0.2	0.2	0.2
+	"Georgia"	"13"	"Black or African American"	"2054-5"	258	24917407	1.0	0.9	1.2
+	"Georgia"	"13"	"White"	"2106-3"	155	45000284	0.3	0.3	0.4
+	"Idaho"	"16"	"White"	"2106-3"	33	12212458	0.3	0.2	0.4
+	"Illinois"	"17"	"Black or African American"	"2054-5"	84	12967563	0.6	0.5	0.8
+	"Illinois"	"17"	"White"	"2106-3"	139	67519979	0.2	0.2	0.2
+	"Indiana"	"18"	"Black or African American"	"2054-5"	41	4859995	0.8	0.6	1.1
+	"Indiana"	"18"	"White"	"2106-3"	160	40084864	0.4	0.3	0.5
+	"Iowa"	"19"	"White"	"2106-3"	56	20088190	0.3	0.2	0.4
+	"Kansas"	"20"	"Black or African American"	"2054-5"	21	1269187	1.7	1.0	2.5
+	"Kansas"	"20"	"White"	"2106-3"	50	17643631	0.3	0.2	0.4
+	"Kentucky"	"21"	"Black or African American"	"2054-5"	25	2722726	0.9	0.6	1.4
+	"Kentucky"	"21"	"White"	"2106-3"	125	27449870	0.5	0.4	0.5
+	"Louisiana"	"22"	"Black or African American"	"2054-5"	117	10598436	1.1	0.9	1.3
+	"Louisiana"	"22"	"White"	"2106-3"	72	20237108	0.4	0.3	0.4
+	"Maine"	"23"	"White"	"2106-3"	15	9019303	0.2	0.1	0.3
+	"Maryland"	"24"	"Black or African American"	"2054-5"	81	13457579	0.6	0.5	0.7
+	"Maryland"	"24"	"White"	"2106-3"	62	24784102	0.3	0.2	0.3
+	"Massachusetts"	"25"	"Black or African American"	"2054-5"	22	4569184	0.5	0.3	0.7
+	"Massachusetts"	"25"	"White"	"2106-3"	72	38880232	0.2	0.1	0.2
+	"Michigan"	"26"	"Black or African American"	"2054-5"	75	9902137	0.8	0.6	0.9
+	"Michigan"	"26"	"White"	"2106-3"	134	55387952	0.2	0.2	0.3
+	"Minnesota"	"27"	"Black or African American"	"2054-5"	17	2973544	0.6	0.3	0.9
+	"Minnesota"	"27"	"White"	"2106-3"	56	33055201	0.2	0.1	0.2
+	"Mississippi"	"28"	"Black or African American"	"2054-5"	92	7829538	1.2	0.9	1.4
+	"Mississippi"	"28"	"White"	"2106-3"	42	12188619	0.3	0.2	0.5
+	"Missouri"	"29"	"Black or African American"	"2054-5"	56	5085909	1.1	0.8	1.4
+	"Missouri"	"29"	"White"	"2106-3"	121	35680071	0.3	0.3	0.4
+	"Montana"	"30"	"White"	"2106-3"	23	6844513	0.3	0.2	0.5
+	"Nebraska"	"31"	"White"	"2106-3"	38	12014466	0.3	0.2	0.4
+	"Nevada"	"32"	"Black or African American"	"2054-5"	14	2341616	0.6	0.3	1.0
+	"Nevada"	"32"	"White"	"2106-3"	35	16001143	0.2	0.2	0.3
+	"New Hampshire"	"33"	"White"	"2106-3"	17	8977300	0.2	0.1	0.3
+	"New Jersey"	"34"	"Black or African American"	"2054-5"	103	9802456	1.1	0.8	1.3
+	"New Jersey"	"34"	"White"	"2106-3"	129	45444858	0.3	0.2	0.3
+	"New Mexico"	"35"	"White"	"2106-3"	45	12009767	0.4	0.3	0.5
+	"New York"	"36"	"Black or African American"	"2054-5"	208	24261845	0.9	0.7	1.0
+	"New York"	"36"	"White"	"2106-3"	254	94668546	0.3	0.2	0.3
+	"North Carolina"	"37"	"Black or African American"	"2054-5"	181	16536041	1.1	0.9	1.3
+	"North Carolina"	"37"	"White"	"2106-3"	184	52297469	0.4	0.3	0.4
+	"North Dakota"	"38"	"White"	"2106-3"	13	4694876	0.3	0.1	0.5
+	"Ohio"	"39"	"Black or African American"	"2054-5"	96	10898676	0.9	0.7	1.1
+	"Ohio"	"39"	"White"	"2106-3"	200	66736900	0.3	0.3	0.3
+	"Oklahoma"	"40"	"Black or African American"	"2054-5"	21	2202638	1.0	0.6	1.5
+	"Oklahoma"	"40"	"White"	"2106-3"	66	20558493	0.3	0.2	0.4
+	"Oregon"	"41"	"White"	"2106-3"	63	25507807	0.2	0.2	0.3
+	"Pennsylvania"	"42"	"Black or African American"	"2054-5"	78	11000382	0.7	0.6	0.9
+	"Pennsylvania"	"42"	"White"	"2106-3"	146	73195434	0.2	0.2	0.2
+	"Rhode Island"	"44"	"White"	"2106-3"	16	6279210	0.3	0.1	0.4
+	"South Carolina"	"45"	"Black or African American"	"2054-5"	87	9739986	0.9	0.7	1.1
+	"South Carolina"	"45"	"White"	"2106-3"	78	25283322	0.3	0.2	0.4
+	"South Dakota"	"46"	"White"	"2106-3"	12	5316901	0.2	0.1	0.4
+	"Tennessee"	"47"	"Black or African American"	"2054-5"	111	8222063	1.4	1.1	1.6
+	"Tennessee"	"47"	"White"	"2106-3"	162	38276928	0.4	0.4	0.5
+	"Texas"	"48"	"Black or African American"	"2054-5"	236	27619723	0.9	0.7	1.0
+	"Texas"	"48"	"White"	"2106-3"	677	161920215	0.4	0.4	0.4
+	"Utah"	"49"	"White"	"2106-3"	55	20959614	0.3	0.2	0.3
+	"Virginia"	"51"	"Black or African American"	"2054-5"	110	12072652	0.9	0.7	1.1
+	"Virginia"	"51"	"White"	"2106-3"	152	41600697	0.4	0.3	0.4
+	"Washington"	"53"	"Black or African American"	"2054-5"	17	2446096	0.7	0.4	1.1
+	"Washington"	"53"	"White"	"2106-3"	101	41853790	0.2	0.2	0.3
+	"West Virginia"	"54"	"White"	"2106-3"	49	11617605	0.4	0.3	0.6
+	"Wisconsin"	"55"	"Black or African American"	"2054-5"	22	2753347	0.8	0.5	1.2
+	"Wisconsin"	"55"	"White"	"2106-3"	72	35642783	0.2	0.2	0.3
+	"Wyoming"	"56"	"White"	"2106-3"	17	3760059	0.5	0.3	0.7
+"---"
+"Dataset: Underlying Cause of Death, 2018-2024, Single Race"
+"Query Parameters:"
+"ICD-10 Codes: O00-O99 (Pregnancy, childbirth and the puerperium)"
+"Single Race 6: Black or African American; White"
+"Group By: State; Single Race 6"
+"Show Totals: Disabled"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Rate Options: Default intercensal populations for years 2001-2009 (except Infant Age Groups)"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/ucd-expanded.html for more information."
+"---"
+"Query Date: Aug 27, 2026 11:11:22 PM"
+"---"
+"Suggested Citation: Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics"
+"System, Mortality 2018-2024 on CDC WONDER Online Database, released in 2026. Data are from the Multiple Cause of Death Files,"
+"2018-2024, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative"
+"Program. Accessed at http://wonder.cdc.gov/ucd-icd10-expanded.html on Aug 27, 2026 11:11:22 PM"
+"---"
+Messages:
+"1. Totals are not available for these results due to suppression constraints. More Information:"
+"http://wonder.cdc.gov/wonder/help/faq.html#Privacy."
+"2. Rows with zero Deaths are hidden. Use Quick Options above to show zero rows."
+"3. Rows with suppressed Deaths are hidden. Use Quick Options above to show suppressed rows."
+"---"
+Caveats:
+"1. Data are Suppressed when the data meet the criteria for confidentiality constraints. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Assurance of Confidentiality."
+"2. The method used to calculate 95% confidence intervals is documented here: More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Confidence-Intervals."
+"3. The population figures for year 2024 are single-race estimates of the July 1 resident population, from the Vintage 2024"
+"postcensal series released by the Census Bureau on June 27, 2024. The 2024 series is based on the Modified Blended Base produced"
+"by the US Census Bureau in lieu of the April 1, 2020 decennial population count. The Modified Blended Base consists of the blend"
+"of Vintage 2020 postcensal population estimates for April 1, 2020, 2020 Demographic Analysis Estimates, and 2020 Census data"
+"from the internal Census Edited File (CEF). The population figures for year 2023 are single-race estimates of the July 1"
+"resident population, from the Vintage 2023 postcensal series released by the Census Bureau on June 27, 2024. The 2023 series is"
+"based on the Modified Blended Base produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count. The"
+"Modified Blended Base consists of the blend of Vintage 2020 postcensal population estimates for April 1, 2020, 2020 Demographic"
+"Analysis Estimates, and 2020 Census data from the internal Census Edited File (CEF). The population figures for years 2022 are"
+"single-race estimates of the July 1 resident population, from the Vintage 2022 postcensal series released by the Census Bureau"
+"on June 22, 2023. The 2022 series is based on the Modified Blended Base produced by the US Census Bureau in lieu of the April 1,"
+"2020 decennial population count. The Modified Blended Base consists of the blend of Vintage 2020 postcensal population estimates"
+"for April 1, 2020, 2020 Demographic Analysis Estimates, and 2020 Census data from the internal Census Edited File (CEF). The"
+"population figures for years 2021 are single-race estimates of the July 1 resident population, based on the Blended Base"
+"produced by the US Census Bureau in lieu of the April 1, 2020 decennial population count, from the Vintage 2021 postcensal"
+"series released by the Census Bureau on June 30, 2022. The population figures for year 2020 are single-race estimates of the"
+"July 1 resident population, from the Vintage 2020 postcensal series based on April 2010 Census, released by the Census Bureau on"
+"July 27, 2021. The population figures for year 2019 are single-race estimates of the July 1 resident population, from the"
+"Vintage 2019 postcensal series based on April 2010 Census, released by the Census Bureau on June 25, 2020. The population"
+"figures for year 2018 are single-race estimates of the July 1 resident population, from the Vintage 2018 postcensal series based"
+"on April 2010 Census, released by the Census Bureau on June 20, 2019. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Population Data."
+"4. The population figures used in the calculation of death rates for the age group 'under 1 year' are the estimates of the"
+"resident population that is under one year of age. More information: http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Age"
+"Group."
+"5. Beginning with the 2018 data, changes have been implemented that affect the counts for ICD-10 cause of death codes O00-O99"
+"compared to previous practice. In addition, data for the cause of death codes O00-O99 for 2003 through 2017 reflect differences"
+"in information available to individual states and probable errors. Caution should be used in interpreting these data. More"
+"information can be found at: https://www.cdc.gov/nchs/maternal-mortality/."
+"6. Connecticut population estimates for 2022 and later years are reported for 9 planning regions as county equivalent areas,"
+"instead of the former 8 legacy counties in the Vintage 2022 postcensal series released by the Census Bureau on June 22, 2023,"
+"and in the Vintage 2023 postcensal series released by the Census Bureau on June 27, 2024. Populations estimates for the former"
+"counties are not available for 2022 and later years. More information:"
+"http://wonder.cdc.gov/wonder/help/ucd-expanded.html#Connecticut-2022."
+"7. After the creation of the final 2023 dataset, North Carolina updated the cause of death information for over 900 death"
+"certificates to include a cause of death code indicating drug overdose (ICD-10 underlying cause-of-death codes: X40-X44,"
+"X60-X64, X85, and Y10-Y14). Jurisdictions can continue to update death certificates after the closing of the mortality file. As"
+"a result, users should consider that the actual death count for drug overdose deaths for North Carolina in 2023 is over 4,400"
+"deaths, with a crude rate of approximately 41.0 per 100,000 population, and an age-adjusted rate of approximately 42.1 per"
+"100,000 population. These deaths will not be updated on the final mortality datasets."
