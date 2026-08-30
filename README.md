@@ -63,11 +63,18 @@ jupyter notebook 01_data_inspection.ipynb
 
 ## Data limitations
 - CDC WONDER suppresses small counts (fewer than 10 deaths) for privacy, which
-  reduced the sample to 32 states with complete race-level data.
-- Births data spans 2018-2024 to match the deaths data window.
-- State-level rurality may be too coarse a measure to capture the real
-  access-to-care mechanism (e.g., distance to nearest obstetric unit), which is
-  more of a county- or hospital-level phenomenon.
+  reduced the usable sample to 32 states with complete Black and White race-level
+  data — smaller, low-population states were disproportionately excluded.
+- Rurality was tested at the state level using two measures (percent of counties
+  rural, percent of population in rural counties). Neither showed a meaningful
+  correlation with disparity size (r = 0.16 and r = 0.27, respectively). This
+  doesn't rule out a rural-access effect but it may mean the effect exists at a
+  finer grain (county- or hospital-level access, e.g. distance to the nearest
+  obstetric unit or rural hospital closures) that state-level aggregation
+  averages away.
+- With only 32 states, the statistical power to detect a moderate correlation is
+  limited; a weak result here is not strong evidence of "no relationship,"
+  only evidence that a strong one is unlikely.
 - Race on birth and death certificates is self-reported or assigned by a
   certifier, a known source of misclassification in vital statistics data.
 
